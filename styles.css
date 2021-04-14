@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Newsreader:wght@300;400&display=swap');
+
+:root{
+    --primary-color: #1E3A8A;
+    --dark-gray: #374151;
+    --off-white: #F3F4F6;
+    --deep-gray: #111827;
+}
+
+body{
+    font-family: 'Newsreader', 
+    serif;
+    margin: 0px;
+}
+
+hr{
+    margin: 2rem 1rem;
+}
+
+/* container */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.container-center{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* links */
+
+.link{
+    text-decoration: none;
+    padding: 0.5rem 0.3rem;
+}
+.link-primary{
+    background-color: var(--primary-color);
+    border-radius: 0.5rem;
+    color: white;
+}
+.link-secondary{
+    color: var(--primary-color);
+    border-radius: 0.5rem;
+    border: 1px solid var(--primary-color);
+}
+
+/* lists */
+
+.list-non-bullet{
+    list-style: none;
+}
+.list-item-inline{
+    display: inline;
+}
+
+/* nav */
+
+.navigation{
+    background-color: var(--primary-color);
+    color: white;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+.navigation .nav-brand{
+    font-weight: bold;
+}
+.navigation .nav-pills{
+    text-align: right;
+}
+.navigation .link{
+    color: white;
+}
+.navigation .link-active{
+    font-weight: bold;
+}
+.nav .nav-link{
+    border: 1px solid var(--off-white);
+    color: var(--primary-color);
+}
+
+/* header */
+
+.hero{
+    padding: 0.5rem;
+}
+.hero .hero-img{
+    max-width: 200px;
+    display: block;
+    margin: auto;
+}
+.hero .hero-heading{
+    text-align: center;
+    padding-top: 0rem;
+    color: var(--dark-gray);
+}
+.hero .hero-heading .heading-inverted{
+    color: var(--primary-color);
+}
+
+/* section */
+
+.section{
+    padding: 1rem;
+}
+.section h3{
+    text-align: center;
+}
+.ow{
+    background-color: var(--off-white);
+}
+
+/* footer */
+
+.footer{
+    background-color: var(--deep-gray); 
+    padding: 1rem 1rem; 
+    text-align: center;
+    border-top-right-radius: 1rem; 
+    margin-top: 4rem; 
+}
+.footer .footer-heading{
+    font-size: large;
+    color: white;
+}
+.footer .link{
+    color: white;
+}
+
+/* button */
+
+.button {
+    background-color: white;
+    color: var(--primary-color);
+    border: 1px solid var(--primary-color);
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-right: 2px;
+    
+}
+
+/* icons */
+
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
